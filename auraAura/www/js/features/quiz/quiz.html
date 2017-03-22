@@ -1,0 +1,100 @@
+<ion-view title="Quiz" id="page3">
+  <ion-content padding="true" class="has-header">
+  <!--emoji css code-->
+  <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+
+  <h2>Choose the option that currently suits you</h2>
+		
+	<h4>1. What is your current mood?</h4>
+		<form action="">
+		<input type="radio" name="mood" value="yellow"> <i class="em  em-blush"></i><br>
+		<input type="radio" name="mood" value="blue"> <i class="em  em-disappointed"></i><br>
+		<input type="radio" name="mood" value="green"> <i class="em  em-grimacing"></i><br>
+		<input type="radio" name="mood" value="red"> <i class="em  em-angry"></i><br>
+		<input type="radio" name="mood" value="orange"> <i class="em  em-heart_eyes"></i><br>
+		<input type="radio" name="mood" value="purple"> <i class="em   em-neutral_face"></i>
+	</form>
+
+	<h4>2. Choose the most appealing one.</h4>
+ 	<form action="">
+		<input type="radio" name="appeal" value="green"> <i class="em  em-cactus"></i><br>
+		<input type="radio" name="appeal" value="red"> <i class="em  em-city_sunrise"></i><br>
+		<input type="radio" name="appeal" value="orange"> <i class="em  em-computer"></i><br>
+		<input type="radio" name="appeal" value="purple"> <i class="em  em-sunrise_over_mountains"></i><br>
+		<input type="radio" name="appeal" value="blue"> <i class="em  em-speedboat"></i><br>
+		<input type="radio" name="appeal" value="yellow"> <i class="em   em-house"></i>
+	</form>
+
+	<h4>3. Choose a purpose.</h4>
+ 	<form action="">
+		<input type="radio" name="purpose" value="orange"> Following your dreams<br>
+		<input type="radio" name="purpose" value="red"> Giving Love<br>
+		<input type="radio" name="purpose" value="green"> Learning and Improving<br>
+		<input type="radio" name="purpose" value="purple"> Making a difference<br>
+		<input type="radio" name="purpose" value="yellow"> Creating memories<br>
+		<input type="radio" name="purpose" value="blue"> Exploring the world</i>
+	</form>
+
+	<h4>4. Choose an element.</h4>
+ 	<form action="">
+		<input type="radio" name="element" value="green"> <i class="em  em-earth_americas"></i><br>
+		<input type="radio" name="element" value="blue"> <i class="em  em-ocean"></i><br>
+		<input type="radio" name="element" value="red"> <i class="em  em-fire"></i><br>
+		<input type="radio" name="element" value="yellow"> <i class="em  em-ear_of_rice"></i><br>
+
+	</form>
+	
+	<h4>5. Choose what you want now. </h4>
+ 	<form action="">
+		<input type="radio" name="want" value="red"> <i class="em  em-pizza"></i>
+				<i class="em  em-hamburger"> </i><i class="em  em-beer"></i><br>
+		<input type="radio" name="want" value="orange"> <i class="em  em-cookie"></i>
+				<i class="em  em-cookie"> </i><i class="em  em-cookie"></i><br>
+		<input type="radio" name="want" value="purple"> <i class="em  em-cake"></i>
+				<i class="em  em-coffee"> </i><i class="em  em-icecream"></i><br>
+		<input type="radio" name="want" value="green"> <i class="em  em-banana"></i>
+				<i class="em  em-apple"> </i><i class="em  em-grapes"></i><br>
+		<input type="radio" name="want" value="blue"> <i class="em  em-sushi"></i>
+				<i class="em  em-rice"> </i><i class="em  em-bento"></i><br>
+		<input type="radio" name="want" value="yellow"> <i class="em   em-bread"></i>
+				<i class="em  em-egg"> </i><i class="em  em-poultry_leg"></i>
+	</form>
+
+	<h4>6. Pick your current motto.</h4>
+ 	<form action="">
+		<input type="radio" name="motto" value="blue"> "Everything is about balance"<br> 
+		<input type="radio" name="motto" value="green"> "It's now or never"<br>
+		<input type="radio" name="motto" value="purple"> "Slow and steady wins the race"<br> 
+		<input type="radio" name="motto" value="red"> "All you need is love"<br>
+		<input type="radio" name="motto" value="orange"> "The ends justify the means"<br>
+		<input type="radio" name="motto" value="yellow"> "Tomorrow is a new day" 
+	</form>
+
+	<h4>7. Who do you prefer to spend your free time with?</h4>
+ 	<form action="">
+		<input type="radio" name="time" value="red"> significant other<br> 
+		<input type="radio" name="time" value="blue"> family<br>
+		<input type="radio" name="time" value="orange"> best friend<br>
+		<input type="radio" name="time" value="yellow"> pet<br> 
+		<input type="radio" name="time" value="green"> meeting new people<br> 
+		<input type="radio" name="time" value="purple"> alone
+	</form>
+
+	<h4>8. Would you choose the light side or the dark side?</h4>
+ 	<form action="">
+		<input type="radio" name="side" value="light"> <i class="em  em-white_circle"></i><br>
+		<input type="radio" name="side" value="dark"> <i class="em  em-black_circle"></i><br>
+		
+	</form>
+
+<button class="button button-block button-balanced" ng-click="QuizVM.continue()">
+		  Submit
+</button>
+    
+    
+   
+
+  </ion-content>
+</ion-view>
+
+
