@@ -2,24 +2,13 @@ angular
     .module('yourAura.quiz')
     .controller('QuizCtrl', QuizCtrl);
 
-function QuizCtrl(humans, $cordovaCamera, $state) {
+function QuizCtrl($cordovaCamera, $state) {
     var vm = this;
 
-    vm.beautifulHuman = {
-		firstName: '',
-		lastName: '',
-		dob: ''
-	}
+   
 
 	vm.continue = function() {
-		var human = new humans.Human(
-			vm.beautifulHuman.firstName,
-			vm.beautifulHuman.lastName,
-			vm.beautifulHuman.dob
-		);
-
-		humans.humans.push(human);
-
+		
 			if (window.Camera) {	
 				var options = {
 			      quality: 50,
@@ -42,7 +31,8 @@ function QuizCtrl(humans, $cordovaCamera, $state) {
 			    });
 			} else {
 				//overrides without having a camera since on computer
-				//else upload 
+				//else upload
+				console.log("I see you"); 
 			   }
 	}
 }

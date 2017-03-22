@@ -2,12 +2,13 @@ angular
     .module('yourAura.hello')
     .controller('HelloCtrl', HelloCtrl);
 
-function HelloCtrl($state) {
+function HelloCtrl($state, $stateParams) {
     var vm = this;
+    
 
-    vm.continue = function () {
-        
-            $state.go('quiz');
+    vm.goToQuiz = function() {
+    		$state.go('quiz');
+	}
+    
 
-        }
-    }
+}

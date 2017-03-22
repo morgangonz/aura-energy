@@ -5,3 +5,4 @@ angular
 function humansService() {
 	var humans = [];
 
+}

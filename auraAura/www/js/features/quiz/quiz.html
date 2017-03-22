@@ -1,9 +1,14 @@
-<ion-view title="Quiz" id="page3">
+<ion-view title="quiz" id="page3">
   <ion-content padding="true" class="has-header">
+ 
   <!--emoji css code-->
   <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
 
   <h2>Choose the option that currently suits you</h2>
+
+  <button class="button button-block button-balanced" ng-click="QuizVM.continue()">
+		  Submit
+</button>
 		
 	<h4>1. What is your current mood?</h4>
 		<form action="">
@@ -90,11 +95,10 @@
 <button class="button button-block button-balanced" ng-click="QuizVM.continue()">
 		  Submit
 </button>
-    
-    
-   
+ 		
+ 	</ion-content>
+ </ion-view>
 
-  </ion-content>
-</ion-view>
+
 
 
