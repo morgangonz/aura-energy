@@ -32,8 +32,8 @@
     <!-- cordova script (this will be a 404 during development) -->
     <script src="cordova.js"></script>
 
-    <!--upload file
-    <script src='bower_components/angular-upload/angular-upload.min.js'></script>-->
+    <!--upload file-->
+   <script src="lib/s3-image-uploader/dist/image-uploader.min.js"></script>
 
      
 
@@ -42,18 +42,34 @@
     <script src="js/yourAura.module.js"></script>
     <script src="js/features/hello/hello.module.js"></script>
     <script src="js/features/learnMore/learnMore.module.js"></script>
+    <script src="js/features/colors/colors.module.js"></script>
     <script src="js/features/quiz/quiz.module.js"></script>
+    <script src="js/features/meaning/meaning.module.js"></script>
+    <script src="js/features/measure/measure.module.js"></script>
     <script src="js/features/components/beautifulHuman/beautifulHuman.module.js"></script>
     <script src="js/features/components/humans/humans.module.js"></script>
     <script src="js/features/hello/hello.controller.js"></script>
     <script src="js/features/hello/hello.route.js"></script>
     <script src="js/features/learnMore/learnMore.controller.js"></script>
     <script src="js/features/learnMore/learnMore.route.js"></script>
+    <script src="js/features/colors/colors.controller.js"></script>
+    <script src="js/features/colors/colors.route.js"></script>
     <script src="js/features/quiz/quiz.controller.js"></script>
     <script src="js/features/quiz/quiz.route.js"></script>
+    <script src="js/features/meaning/meaning.controller.js"></script>
+    <script src="js/features/meaning/meaning.route.js"></script>
+    <script src="js/features/measure/measure.controller.js"></script>
+    <script src="js/features/measure/measure.route.js"></script>
     <script src="js/features/components/beautifulHuman/beautifulHuman.directive.js"></script>
     <script src="js/features/components/humans/humans.service.js"></script>
     <!-- endinject -->
+
+
+<!--JS-->
+<script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+    
   </head>
   <body ng-app="yourAura">
   <!--animation="slide-left-right"-->

@@ -8,6 +8,6 @@ function quizConfig($stateProvider) {
         url: '/quiz',
         templateUrl: 'js/features/quiz/quiz.html',
         controller: 'QuizCtrl',
-        controllerAs: 'QuizVM'
+        controllerAs: 'quizVM'
     })
 }

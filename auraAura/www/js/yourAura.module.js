@@ -3,7 +3,11 @@ angular
         'ionic',
         'yourAura.hello',
         'yourAura.quiz',
-        'yourAura.learnMore'
+        'yourAura.learnMore',
+        'yourAura.meaning',
+        'yourAura.measure',
+        'yourAura.colors'
+       
 
     ])
     .config(yourAuraConfig)
