@@ -14,22 +14,31 @@ function QuizCtrl($cordovaCamera, $state, $ionicPopup) {
 			case "red": 
 				template = `competitive, energizing, exciting,
         					passionate, impulsive, powerful,
-        					intense, agressive, strong`;
+        					intense, aggressive, strong`;
         		break; 
         	case "orange":
-        		template = `orange juice wins at codewars`;
+        		template = `joyful, ambitious, fun,
+        					happy, energetic, balanced,
+        					vibrant, warm, enthusiastic`;
         		break;
         	case "yellow":
-        		template = `sunshine`;
+        		template = `cheerful, idealist, hopeful,
+        					imaginative, philosophical, youthful,
+        					optimistic, generous`;
         		break;
         	case "green":
-        		template = `envious`;
+        		template = `lively, envious, spiritual,
+        					stable, successful, grateful`;
         		break;
         	case "blue":
-        		template = `jkdskl`;
+        		template = `protective, unique, peaceful,
+         					quiet, understanding, trustworthy,
+         					harmonious, loyal, calm`;
         		break;
         	case "purple":
-        		template = `jekwiql,`;
+        		template = `nostalgic, delicate, mysterious, 
+        					transformative, independent,
+        					respectful, wealthy, enlightening`;
         		break									
 		}
 		var alertPopup = $ionicPopup.alert({
@@ -58,7 +67,7 @@ function QuizCtrl($cordovaCamera, $state, $ionicPopup) {
 
 
 
-//vince's function for colors
+//function for colors
 
 	vm.colors = {}
 
