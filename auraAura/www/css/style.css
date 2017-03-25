@@ -20,3 +20,24 @@
 	margin-top: 95%;
 	color:white;
 }
+
+#takeQuiz {
+	margin-top:60%;
+}
+#aura {
+	font-family: 'Bungee Outline', cursive;
+	text-align:center;
+	color: white;
+}
+
+#whatIsAnAura {
+	margin-top:15px;
+}
+
+.meaning {
+	font-size:14px;
+	color: white;
+}
+#measure {
+	padding-top:10px;
+}
